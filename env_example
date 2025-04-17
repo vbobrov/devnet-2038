@@ -1,0 +1,21 @@
+# This is an example of the environment variables needed to run the script.
+# Copy this file to .env and fill in the values.
+
+# pxGrid Hostname
+PXGRID_HOSTNAME = pxgrid.example.com
+
+# pxGrid Client Certificate
+PXGRID_CLIENT_CERT = .pxgrid-client.crt
+
+# pxgrid Client Key
+PXGRID_CLIENT_KEY = .pxgrid-client.key
+
+# Root CA for ISE pxGrid Certificate
+PXGRID_CA_CERT = .demo-ca.cer
+
+# pxGrid Pusher Direct URL. This is hosted on Primary Admin node
+PXGRID_DIRECT_URL = https://admin.example.com/api/v1/pxgrid-direct/push/cl-pusher/bulk
+
+# pxGrid Pusher Direct User and Password
+PXGRID_DIRECT_USER = cl-pusher
+PXGRID_DIRECT_PASSWORD = cl-pusher

@@ -1,0 +1,6 @@
+mac,hostname,type,role,location
+66:66:66:66:66:66,nyc-hv-01,iot,hvac,new york
+77:77:77:77:77:77,san-prt-01,iot,printer,san diego
+88:88:88:88:88:88,rtp-ldap-01,server,ldap,rtp
+99:99:99:99:99:99,dal-wks-01,workstation,thinclient,dallas
+AA:AA:AA:AA:AA:AA,chi-wks-01,thinclient,workstation,chicago

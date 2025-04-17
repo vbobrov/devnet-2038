@@ -1,0 +1,6 @@
+mac,hostname,type,role,location
+11:11:11:11:11:11,nyc-hv-01,iot,hvac,new york
+22:22:22:22:22:22,san-prt-01,iot,printer,san diego
+33:33:33:33:33:33,rtp-ldap-01,server,ldap,rtp
+44:44:44:44:44:44,dal-wks-01,workstation,thinclient,dallas
+55:55:55:55:55:55,chi-wks-01,workstation,thinclient,chicago
