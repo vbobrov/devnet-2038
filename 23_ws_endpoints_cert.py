@@ -26,7 +26,7 @@ print(json.dumps(r.json(),indent=2))
 # Get the service information
 service_info=r.json()["services"][0]
 
-session_topic=service_info["properties"]["topic"]
+endpoint_topic=service_info["properties"]["topic"]
 pubsub_service=service_info["properties"]["wsPubsubService"]
 
 # Lookup pubsub service
@@ -47,7 +47,6 @@ print(json.dumps(r.json(),indent=2))
 # Get the service information
 service_info=r.json()["services"][0]
 
-
 node_name=service_info["nodeName"]
 ws_url=service_info["properties"]["wsUrl"]
 
@@ -55,7 +54,7 @@ ws_url=service_info["properties"]["wsUrl"]
 def on_open(wsapp):
     # Send the CONNECT and SUBSCRIBE messages
     wsapp.send(f"CONNECT\naccept-version:1.2\nhost:{node_name}\n\n\x00",websocket.ABNF.OPCODE_BINARY)
-    wsapp.send(f"SUBSCRIBE\ndestination:{session_topic}\nid:python\n\n\x00",websocket.ABNF.OPCODE_BINARY)
+    wsapp.send(f"SUBSCRIBE\ndestination:{endpoint_topic}\nid:python\n\n\x00",websocket.ABNF.OPCODE_BINARY)
 
 # Callback function that processes WebSocket messages
 def on_message(wsapp,message):
