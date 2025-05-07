@@ -29,4 +29,4 @@ while True:
         break
 
     # Wait for 60 seconds before retrying
-    sleep(60)
+    sleep(1)

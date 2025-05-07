@@ -1,4 +1,4 @@
-# Reference: https://github.com/cisco-pxgrid/pxgrid-rest-ws/wiki/TrustSec
+# Reference: https://github.com/cisco-pxgrid/pxgrid-rest-ws/wiki/TrustSec-configuration
  
 import requests
 import json

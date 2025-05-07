@@ -19,3 +19,6 @@ PXGRID_DIRECT_URL = https://admin.example.com/api/v1/pxgrid-direct/push/cl-pushe
 # pxGrid Pusher Direct User and Password
 PXGRID_DIRECT_USER = cl-pusher
 PXGRID_DIRECT_PASSWORD = cl-pusher
+
+# PSN hostname for DHCP profiling
+PSN_HOSTNAME = psn.example.com

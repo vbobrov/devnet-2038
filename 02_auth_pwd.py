@@ -44,4 +44,6 @@ while True:
     if json_response["accountState"]=="ENABLED":
         print(f"Account Approved.")
         break
-    sleep(60)
+
+    # Wait for 60 seconds before retrying
+    sleep(1)

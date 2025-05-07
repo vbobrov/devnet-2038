@@ -26,7 +26,7 @@ service_info=r.json()["services"][0]
 # Get the restBaseUrl
 rest_url=service_info["properties"]["restBaseUrl"]
 
-# Get the security groups
+# Get sessions
 r=requests.post(f"{rest_url}/getSessions",
     cert=(pxgrid_cert,pxgrid_key),
     verify=pxgrid_ca,

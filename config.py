@@ -19,3 +19,6 @@ pxgrid_ca = os.getenv('PXGRID_CA_CERT')
 pxgrid_direct_url = os.getenv('PXGRID_DIRECT_URL')
 pxgrid_direct_user = os.getenv('PXGRID_DIRECT_USER')
 pxgrid_direct_password = os.getenv('PXGRID_DIRECT_PASSWORD')
+
+# Get PSN Hostname from environment variable
+psn_hostname = os.getenv('PSN_HOSTNAME')

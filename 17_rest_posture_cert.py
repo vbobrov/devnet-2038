@@ -1,5 +1,7 @@
 # Reference: https://developer.cisco.com/docs/pxgrid/subscribing-to-posture-topic/
 
+# As of May 6, 2025 and ISE 3.4 P1, this code does not work
+
 import requests
 import json
 from config import *
