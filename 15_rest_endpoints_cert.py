@@ -32,12 +32,9 @@ r=requests.post(f"{rest_url}/getEndpoints",
     verify=pxgrid_ca,
     auth=("pxgrid-client","none"),
     json={ 
-        "order":"asc",
         "startCreateTimestamp":"2024-07-20T00:00:00.000+05:30",
-        "startUpdateTimestamp":"2025-07-20T00:00:00.000+05:30",
         "startIndex":0,
         "count":100,
-        "filter": "macAddress==9B:E5:27:32:6D:7A"
     }
 )
 
